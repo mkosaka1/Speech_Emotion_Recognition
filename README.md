@@ -11,10 +11,12 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 
 ## Process
 
-1)	See **audio**: Folder of audio files downloaded from Kaggle.
-2)	See **Data_Preprocessing_&_Initial_Model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
-3)	See **Data_Augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
-4)	See **ipd.Audio Files** for loaded audio files and **EDA_&_Modeling_Photos** for all .png files
+1)	See **Data_Preprocessing_&_Initial_Model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
+2)	See **Data_Augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
+/Users/murielkosaka/Desktop/capstone_project/EDA_&_Modeling_Photos/Initial_&_Augmented_Model_Photos
+![Accuracy](/Pictures/Initial_Model_Accuracy.png)
+
+3)	See **ipd.Audio Files** for loaded audio files and **EDA_&_Modeling_Photos** for all .png files
 
 ## Conclusion
 Using feature extraction methods by itself did not achieve a high accuracy score within my CNN model, but using data augmentation methods did improve the accuracy score to 80% however it was overfitting the data. This model needs to be improved upon before being applied towards making an app to detect emotion in real time. 
