@@ -15,22 +15,21 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 
 - *EDA*
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/Waveplot_FemaleCalm.png)
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/EDA_Photos/Waveplot_FemaleCalm.png)
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/MelSpec_FemaleCalm.png)
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/EDA_Photos/MelSpec_FemaleCalm.png)
 
 - *Initial Model*
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Accuracy.png)
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Initial_Model_Accuracy.png)
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Confusion_Matrix.png)
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Initial_Model_Confusion_Matrix.png)
 
 2)	See **Data_Augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Augmented_Model_Accuracy.png)
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Augmented_Model_Accuracy.png)
 
-![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png)
-
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/Uploads/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png)
 
 3)	See **Uploads** for all .png and sample audio files
 
