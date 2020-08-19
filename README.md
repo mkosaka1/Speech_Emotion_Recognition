@@ -12,12 +12,15 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 ## Process
 
 1)	See **Data_Preprocessing_&_Initial_Model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
-*EDA*
+
+- *EDA*
+
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/Waveplot_FemaleCalm.png)
 
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/MelSpec_FemaleCalm.png)
 
-*Initial Model*
+- *Initial Model*
+
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Accuracy.png)
 
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Confusion_Matrix.png)
