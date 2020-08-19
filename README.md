@@ -1,4 +1,4 @@
-# Speech Emotion Recognition System
+# Emotion Detection Through Machine Learning
 Muriel Kosaka
 
 ## Project Overview
@@ -12,20 +12,34 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 ## Process
 
 1)	See **Data_Preprocessing_&_Initial_Model.ipynb**: Loaded audio files, created visualizations, conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **audio.csv**) and built inital 1D CNN Model. Obtained an accuracy score of 38% with the model having difficulty classifying calm, surprised, angry, and digust.
+*EDA*
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/Waveplot_FemaleCalm.png)
+
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/EDA_Photos/MelSpec_FemaleCalm.png)
 
+*Initial Model*
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Accuracy.png)
+
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Initial_Model_Confusion_Matrix.png)
+
 2)	See **Data_Augmentation.ipynb**: Implemented data augmentation methods including adding noise, speed and pitch, and stretch to all audio files and used feature extraction methods to turn audio files into images to feed into 1D CNN Model. Obtained an accuracy score of 80%, but overfitting the data as seen in graph.
+
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Augmented_Model_Accuracy.png)
+
+![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png)
+
+
 3)	See **ipd.Audio Files** for loaded audio files and **EDA_&_Modeling_Photos** for all .png files
 
 ## Conclusion
 Using feature extraction methods by itself did not achieve a high accuracy score within my CNN model, but using data augmentation methods did improve the accuracy score to 80% however it was overfitting the data. This model needs to be improved upon before being applied towards making an app to detect emotion in real time. 
 
 ## Limitations
-Limitations include not using feature selection to reduce the dimensionality of my augmented CNN which may have improved learning performance. Another limitation included using minimal data, the RAVDESS Dataset has only 1,440 files which may be why there was overfitting of the data. Transfer learning should have been utilized.
+Limitations include not using feature selection to reduce the dimensionality of my augmented CNN which may have improved learning performance. Another limitation included using minimal data, the RAVDESS Dataset has only 1,440 files which may be why there was overfitting of the data. Additional datasets could have been utilized.
 
 ## Next Steps
 
-Next steps for this project include applying transfer learning and building a 2D CNN model to look at how accuracy scores differ, then work towards building an app to detect emotion. Afterwards, I would like to be able to build system that can recognize emotion in real time and then calculate degree of affection such as love, truthfulness, and friendship of the person you are talking to.
+Next steps for this project include applying transfer learning and building a front-end for user interaction, then work towards building an app to detect emotion. Afterwards, I would like to be able to build system that can recognize emotion in real time and then calculate degree of affection such as love, truthfulness, and friendship of the person you are talking to.
 
 
 
