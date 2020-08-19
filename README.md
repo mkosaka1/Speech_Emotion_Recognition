@@ -32,7 +32,9 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) Dataset
 ![alt text](https://github.com/mkosaka1/capstone_project/blob/master/EDA_%26_Modeling_Photos/Initial_%26_Augmented_Model_Photos/Augmented_Model_Confusion_Matrix.png)
 
 
-3)	See **ipd.Audio Files** for loaded audio files and **EDA_&_Modeling_Photos** for all .png files
+3)	See **Uploads** for all .png and sample audio files
+
+4)	See **Transfer_Learning**: Currently working in Notebook. Applied VGG16 and Inception pre-trained models for higher accuracy.
 
 ## Conclusion
 Using feature extraction methods by itself did not achieve a high accuracy score within my CNN model, but using data augmentation methods did improve the accuracy score to 80% however it was overfitting the data. This model needs to be improved upon before being applied towards making an app to detect emotion in real time. 
