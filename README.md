@@ -1,4 +1,4 @@
-# Emotion Detection Through Machine Learning
+# Speech Emotion Recognition System
 Muriel Kosaka
 
 ## Project Overview
